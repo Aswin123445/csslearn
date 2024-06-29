@@ -1,0 +1,17 @@
+div{
+    height: 60px;
+    width: 100px;
+    background-color: Red;
+    border: 3px solid black;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function: ease-out;
+    transition-property: all;
+    transform: rotate(45deg) scale(2),translateY(-200px);
+}
+div:hover{
+    background-color: blue;
+}
+body{
+    padding-top: 40px;
+}
