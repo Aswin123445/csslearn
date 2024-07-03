@@ -1,3 +1,4 @@
+
 .heading-section{
     height: 50px;
     width: 120%;
@@ -58,7 +59,7 @@
 }
 body{
     overflow-x: hidden;
-    background-color: #0d1117;
+    background-color: #010409;
     font-family: Arial, Helvetica, sans-serif;
 }
 #serchicon {
@@ -160,13 +161,15 @@ body{
      display: flex;
      flex-wrap: nowrap;
   }
+ 
   .repo{
     margin-top: 40px;
     width: 287px;
-    height: 100%;
+    height: 1093px;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 16px;
+    border-bottom: 1px solid #2a2f36;
   }
   #row11{
     font-weight: 500;
@@ -174,6 +177,7 @@ body{
     margin-right: 120px;
     color: white;
     margin-top: 10px;
+    width: 107px;
   }
   #row1{
     display: flex;
@@ -259,11 +263,15 @@ body{
   /*home page styling*/
   .content{
     width: 1350px;
-    height: 1394px;
+    height: 1150px;
     background-color: #010409;
     padding-left: 29px;
     border-left: 1px solid#2a2f36;
+    border-bottom: 1px solid #2a2f36;
+    display: flex;
+    flex-wrap: nowrap;
   }
+
   #mainrow1{
     margin-top: 14px;
     width: 772px;
@@ -454,4 +462,160 @@ body{
     margin-left: 20px;
     font-size: 13px;
     margin-right: 7px;
+  }
+  #news{
+    color: white;
+    height: 560px;
+    width: 322.4px;
+    background-color: #0d1117;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 7px;
+    border: 1px solid #2a2f36;
+    padding-top: 25px;
+    padding-left: 17px;
+  }
+  #row31{
+    color: #cad1d6;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2px;
+  }
+  #round31{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: violet;
+    margin-right: 15px;
+  }
+  #round32{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 15px;
+  }
+  #row32{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: .875rem;
+    color: #cad1d6;
+  }
+  #row31star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 38px;
+    background-color: #21262d;
+    margin-left: 145px;
+    border-radius: 5px;
+  }
+  #row31star:hover{
+    background-color: #2a2f36;
+  }
+#row33{
+    font-size: 12px;
+    color:  #8d96a0;
+    margin-top: 5px;
+    padding: 5px;
+}
+#row34{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #8d96a0;
+}
+#star4{
+    font-size: 14px;
+    margin-right: 7px;
+}
+#round4{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 40px;
+}
+#round44{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: 40px;
+}
+#bor1{
+
+    margin-bottom: 20px;
+    height: .01px;
+    width: 94%;
+    border: .5px solid #2a2f36;
+    margin-top: 17px;
+}
+#row311{
+    height: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #cad1d6;
+    font-weight: 600;
+    font-size: 14px;
+}
+#row311star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 38px;
+    background-color: #21262d;
+    margin-left: 85px;
+    border-radius: 5px;
+  }
+  #row311star:hover{
+    background-color: #2a2f36;
+  }
+  #foot{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  #log{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-image: url("resources/github.png");
+    background-size: contain;
+  }
+  #tex{
+    font-size: 12px;
+    color: #8d96a0;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  #nextline{
+    font-size: 12px;
+    color: #8d96a0;
+    height: 30px;
+    width: 600px;
+  }
+  #nextline a{
+    text-decoration: none;
+    color: #8d96a0;
+ 
+  }
+  #nextline a:hover{
+    text-decoration: underline;
+    color: blue;
+  }
+  #nextline{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  pre{
+    margin-top: 90px;
   }
