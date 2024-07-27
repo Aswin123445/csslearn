@@ -11,7 +11,12 @@
     border-bottom:2px solid #2a2f36;
 
 }
-#menuborder{
+body{
+  overflow-x: hidden;
+  background-color: #010409;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#headerMenuStyle{
     display: flex;
     border: 1.4px solid rgba(101, 101, 101, 0.822);
     height: 30.4px;
@@ -22,7 +27,7 @@
     border-radius: 5px;
     margin-top: 5px;
 }
-#logo{
+#headerMainLogo{
     height: 37px;
     width: 37px;
     background-image: url("resources/github.png");
@@ -31,7 +36,7 @@
     margin-left: 8px;
     
 }
-#dashbord{
+#Headerdashbord{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,31 +49,29 @@
     margin-left: 4px;
     margin-top: 9px;
 }
-#dashbord:hover{
+#Headerdashbord:hover{
     background-color: #161b22;
 }
-#serchbar{
-    height: 30px;
-    width: 310px;
-    margin-left: 780px;
-    margin-top: 5px;
-    border: 1px solid #2a2f36;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: nowrap;
+
+
+/* header serarch icon */
+#headerSearchbar{
+  height: 30px;
+  width: 310px;
+  margin-left: 780px;
+  margin-top: 5px;
+  border: 1px solid #2a2f36;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: nowrap;
 }
-body{
-    overflow-x: hidden;
-    background-color: #010409;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#serchicon {
+
+#headerserchIcon {
     position: relative;
     display: flex;  /* Optional for better alignment */
-   
   }
   
-  #serchicon i {
+  #headerserchIcon i {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);  /* Center the icon vertically */
@@ -76,7 +79,7 @@ body{
     color: #ccc;  /* Adjust icon color */
   }
   
-  #serchicon input {
+  #headerserchIcon input {
     color: #cccccc;
     line-height: 20px;
     font-size: 14px;
@@ -87,7 +90,7 @@ body{
     padding-left: 30px;  /* Make space for the icon */
     /* Add other input styles */
   }
-  #iconlast{
+  #headerGreaterUnderscore{
     color: #cccccc;
     border-radius: 5px;
     height: 100%;
@@ -96,14 +99,16 @@ body{
     justify-content: center;
     align-items: center;
   }
-  #bLine{
+  #headerVerticalLine{
     color: rgba(151, 149, 149, 0.482);
     width: 1px;
     height: 15px;
     border: .5px solid rgba(151, 149, 149, 0.482);
     margin-top: 5px;
   }
-  #outerbLine{
+
+  /* right most section of header */
+  #headerVerticalLineOuter{
     color: rgba(151, 149, 149, 0.482);
     height: 17px;
     border: .1px solid rgba(151, 149, 149, 0.482);
@@ -152,8 +157,8 @@ body{
     background-color: red;
     width: 35px;
     height: 35px;
-    background-image: url("resources/profile.png");
-    background-size: contain;
+    background-image: url("resources/girl.jpg");
+    background-size: cover;
   }
 
   /*down section*/
@@ -165,7 +170,6 @@ body{
     background-color: #0d1117;
     width: 395px;
     height: 190px;
-   
   }
   .repo{
     position:relative;
@@ -177,6 +181,7 @@ body{
     padding-top: 56px;
     border-bottom: 1px solid #2a2f36;
   }
+  /* repostior side row 1 top repository */
   #row11{
     font-weight: 500;
     font-size: .875rem;
@@ -204,6 +209,7 @@ body{
   #row12:hover{
     background-color: rgb(16, 175, 16);
   }
+  /* row 2 search repository */
   #row2 input{
     background-color: #252a309f;
     height: 100%;
@@ -226,6 +232,8 @@ body{
     height: 30px;
     width: 280px;
   }
+
+  /* row 3 that contains repository list */
   #row3 ul{
     list-style-type: none;
     margin-left: -38px;
@@ -241,16 +249,20 @@ body{
     margin-right: 7px;
     height: 16px;
     width: 16px;
-    background-size: contain;
+    background-size: cover;
     border-radius: 50%;
-    background-image: url("resources/profile.png");
+    background-image: url("resources/girl.jpg");
   }
+
+  /* row 4 recent acitvity text */
   #row4{
     margin-top: 28px;
     color: #c4cbd1;
     font-size: .875rem;
     font-weight: 600;
   }
+
+  /* row 5 that of repository section below recent activity */
   #row5{
     width: 263px;
     height: 59px;
@@ -266,7 +278,7 @@ body{
   }
 
 
-  /*home page styling*/
+  /*center of page were conent and display the post*/
   .content{
     width: 1350px;
     height: 1350px;
@@ -277,7 +289,7 @@ body{
     display: flex;
     flex-wrap: nowrap;
   }
-
+ /* center page first row */
   #mainrow1{
     margin-top: 14px;
     width: 772px;
@@ -332,17 +344,9 @@ body{
   #filter:hover{
     background-color: #2a2f36;
   }
-  #mainrow2{
-    height: 148px;
-    width: 751px;
-    background-color: grey;
-    margin-top: 10px;
-    border-radius: 8px;
-    background-color: #0d1117;
-    padding: 15px;
-    margin-bottom: 17px;
-    border: 1px solid #2a2f36;
-  }
+
+  /* second row of the git content row */
+
   .trending-rep{
     height: 100px;
     width: 751px;
@@ -461,7 +465,7 @@ body{
     background-color: red;
     border-radius: 50px;
   }
-  trendng-repo-row22 a{
+  .trendng-repo-row22 a{
     color: white;
     text-decoration: none;
   }
@@ -481,6 +485,17 @@ body{
     border-radius: 50px;
     background-image:url(resources/man.jpg);
     background-size: cover;
+  }
+  #mainrow2{
+    height: 148px;
+    width: 751px;
+    background-color: grey;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #0d1117;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #2a2f36;
   }
   #namepro{
     height: 38px;
